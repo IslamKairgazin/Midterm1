@@ -1,4 +1,7 @@
 package coffee_shop;
 
-public class Coffee {
+// Интерфейс для всех типов кофе (чтобы можно было добавлять ингредиенты)
+public interface Coffee {
+    double getCost(); // Цена кофе
+    String getDescription(); // Описание кофе
 }
